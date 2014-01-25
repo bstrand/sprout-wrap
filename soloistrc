@@ -18,6 +18,11 @@ recipes:
 - sprout-osx-git::git_projects
 - pivotal_workstation::git_config_global_defaults
 - sprout-osx-git::git_scripts
+- sprout-osx-apps::go
+- sprout-osx-apps::intellij_community_edition
+- sprout-osx-apps::jq
+- sprout-osx-apps::sourcetree
+- sprout-osx-apps::tower
 
 # development (rails)
 - sprout-osx-rbenv
@@ -37,11 +42,25 @@ recipes:
 - pivotal_workstation::github_for_mac
 - sprout-osx-apps::iterm2
 - sprout-osx-apps::keycastr
+- sprout-osx-apps::caffeine
+- sprout-osx-apps::charles_proxy
+- sprout-osx-apps::evernote
+- sprout-osx-apps::flux
+- sprout-osx-apps::flycut
+- sprout-osx-apps::hiss
+- sprout-osx-apps::istatmenus
+- sprout-osx-apps::lastpass
+- sprout-osx-apps::s3cmd
+- sprout-osx-apps::sizeup
+- sprout-osx-apps::truecrypt
+- sprout-osx-apps::tunnelblick
+- sprout-osx-apps::vlc
 
 # apps (editors)
-- sprout-osx-apps::textmate
-- sprout-osx-apps::textmate_bundles
-- sprout-osx-apps::textmate_preferences
+#- sprout-osx-apps::textmate
+#- sprout-osx-apps::textmate_bundles
+#- sprout-osx-apps::textmate_preferences
+- sprout-osx-apps::sublime_text
 
 - sprout-osx-apps::macvim
 - sprout-osx-apps::ctags_exuberant
