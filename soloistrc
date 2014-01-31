@@ -18,11 +18,11 @@ recipes:
 - sprout-osx-git::git_projects
 - pivotal_workstation::git_config_global_defaults
 - sprout-osx-git::git_scripts
-- sprout-osx-apps::go
-- sprout-osx-apps::intellij_community_edition
-- sprout-osx-apps::jq
-- sprout-osx-apps::sourcetree
-- sprout-osx-apps::tower
+#- sprout-osx-apps::go
+#- sprout-osx-apps::intellij_community_edition
+#- sprout-osx-apps::jq
+#- sprout-osx-apps::sourcetree
+#- sprout-osx-apps::tower
 
 # development (rails)
 - sprout-osx-rbenv
@@ -35,7 +35,8 @@ recipes:
 
 # apps
 - pivotal_workstation::screen_sharing_app
-- sprout-osx-apps::shiftit
+#- sprout-osx-apps::shiftit
+- sprout-osx-apps::sizeup
 - pivotal_workstation::mouse_locator
 - sprout-osx-apps::menumeters
 - sprout-osx-apps::ccmenu
@@ -43,7 +44,7 @@ recipes:
 - sprout-osx-apps::iterm2
 - sprout-osx-apps::keycastr
 - sprout-osx-apps::caffeine
-- sprout-osx-apps::charles_proxy
+#- sprout-osx-apps::charles_proxy
 - sprout-osx-apps::evernote
 - sprout-osx-apps::flux
 - sprout-osx-apps::flycut
@@ -51,7 +52,6 @@ recipes:
 - sprout-osx-apps::istatmenus
 - sprout-osx-apps::lastpass
 - sprout-osx-apps::s3cmd
-- sprout-osx-apps::sizeup
 - sprout-osx-apps::truecrypt
 - sprout-osx-apps::tunnelblick
 - sprout-osx-apps::vlc
